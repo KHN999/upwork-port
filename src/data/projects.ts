@@ -305,21 +305,6 @@ export const projects: Project[] = [
     },
   },
   {
-    slug: "project-two",
-    title: "Placeholder: AI Agent / LLM Workflow",
-    summary: "Custom AI agent automating a real business workflow.",
-    description:
-      "Explain what the agent does, which models/APIs it uses, and how it plugs into the client's existing tools.",
-    stack: ["Python", "Node.js", "Claude API", "n8n"],
-    highlights: [
-      "The workflow it automates and for whom",
-      "How you handled reliability (retries, structured outputs, evals)",
-      "Impact — hours saved, error rate reduced, etc.",
-    ],
-    kind: "work",
-    featured: true,
-  },
-  {
     slug: "agenthq-chat",
     title: "AgentHQ Chat (Mobile)",
     summary: "Production React Native chat app for a distributed agent workforce — realtime messaging, voice notes, and shift tools.",
