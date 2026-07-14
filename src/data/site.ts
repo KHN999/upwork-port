@@ -9,7 +9,7 @@ export const site = {
   location: "Bangkok, Thailand",
   email: "neskokaung122@gmail.com",
   links: {
-    github: "https://github.com/nine122",
+    github: "https://github.com/KHN999",
     linkedin: "https://www.linkedin.com/in/kaung-htet-naing-nine-4896bb212/",
     upwork: "https://www.upwork.com/freelancers/kaunghtetnaing",
   },
