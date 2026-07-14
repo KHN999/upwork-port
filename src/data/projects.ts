@@ -67,6 +67,7 @@ export const projects: Project[] = [
     ],
     kind: "personal",
     featured: true,
+    image: "/images/projects/football-analysis/cover.png",
     caseStudy: {
       role: "Solo developer — data collection, modeling, ML, LLM integration, and UI",
       timeline: "2025 — present · in daily use",
@@ -214,6 +215,7 @@ export const projects: Project[] = [
     ],
     kind: "personal",
     featured: true,
+    image: "/images/projects/se-map/home.png",
     links: {
       live: "https://se-learn.vercel.app",
     },
@@ -331,6 +333,7 @@ export const projects: Project[] = [
       "Native polish: iOS 26 Liquid Glass design — translucent, blurred materials throughout the UI",
     ],
     kind: "work",
+    image: "/images/projects/agenthq-cover.jpg",
     caseStudy: {
       role: "Software Engineer at Puraido — mobile app inside a product monorepo (Go backend · web dashboards)",
       timeline: "2025 — present",
@@ -445,6 +448,7 @@ export const projects: Project[] = [
       "100% Burmese UI built for non-technical users — my dad's staff, not developers",
     ],
     kind: "work",
+    image: "/images/projects/lgy/admin-dashboard.png",
     caseStudy: {
       role: "Solo developer — my first real client was my dad: requirements, build, deploy, support",
       timeline: "2025 — ongoing",

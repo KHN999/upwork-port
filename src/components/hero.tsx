@@ -79,21 +79,23 @@ export function Hero() {
           <h1 className="max-w-3xl text-4xl font-semibold leading-tight tracking-tight sm:text-6xl">
             {site.name}
             <span className="text-accent">.</span>
-            <br />
-            <span className="text-muted">I build</span>{" "}
-            <span className="relative inline-block text-left">
-              <AnimatePresence mode="wait">
-                <motion.span
-                  key={site.specialties[index]}
-                  initial={{ opacity: 0, y: 14, filter: "blur(6px)" }}
-                  animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-                  exit={{ opacity: 0, y: -14, filter: "blur(6px)" }}
-                  transition={{ duration: 0.35 }}
-                  className="inline-block text-accent"
-                >
-                  {site.specialties[index]}
-                </motion.span>
-              </AnimatePresence>
+            {/* rotating phrase: always one line — font scales instead of wrapping */}
+            <span className="mt-1 block whitespace-nowrap text-[6.2vw] sm:text-5xl lg:text-[2.6rem]">
+              <span className="text-muted">I build</span>{" "}
+              <span className="relative inline-block text-left">
+                <AnimatePresence mode="wait">
+                  <motion.span
+                    key={site.specialties[index]}
+                    initial={{ opacity: 0, y: 14, filter: "blur(6px)" }}
+                    animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+                    exit={{ opacity: 0, y: -14, filter: "blur(6px)" }}
+                    transition={{ duration: 0.35 }}
+                    className="inline-block text-accent"
+                  >
+                    {site.specialties[index]}
+                  </motion.span>
+                </AnimatePresence>
+              </span>
             </span>
           </h1>
 
