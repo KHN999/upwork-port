@@ -11,8 +11,7 @@ export const site = {
   links: {
     github: "https://github.com/nine122",
     linkedin: "https://www.linkedin.com/in/kaung-htet-naing-4896bb212/",
-    // TODO: replace with your real Upwork profile URL
-    upwork: "https://www.upwork.com/freelancers/~kaunghtetnaing",
+    upwork: "https://www.upwork.com/freelancers/kaunghtetnaing",
   },
   // TODO: drop your resume PDF into /public and update this path
   resumeUrl: "/resume.pdf",
