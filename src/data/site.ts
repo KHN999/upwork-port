@@ -18,7 +18,7 @@ export const site = {
   // Shown as the proof strip under the hero CTAs — tweak freely
   stats: [
     { value: "10+", label: "projects shipped" },
-    { value: "1+ yr", label: "production experience" },
+    { value: "2 yrs", label: "production experience" },
     { value: "<24h", label: "response time" },
   ],
 };
