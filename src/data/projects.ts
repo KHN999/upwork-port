@@ -218,6 +218,7 @@ export const projects: Project[] = [
     image: "/images/projects/se-map/home.png",
     links: {
       live: "https://se-learn.vercel.app",
+      github: "https://github.com/KHN999/se-learn",
     },
     caseStudy: {
       role: "Solo developer — architecture, UI, and the AI content pipeline",
