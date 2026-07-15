@@ -8,7 +8,7 @@ export function Testimonials() {
       id="testimonials"
       eyebrow="Kind words"
       title="What people say"
-      description="From the engineer who managed me — and from my first real client."
+      description="From a colleague at Puraido — and a client whose business runs on my work."
     >
       <div className="grid gap-4 lg:grid-cols-2">
         {testimonials.map((t, i) => (
