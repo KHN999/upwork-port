@@ -10,26 +10,25 @@ export function About() {
         <div className="space-y-4 text-muted">
           <Reveal>
             <p>
-              I&apos;m a software engineer based in Bangkok, currently building products at Puraido
-              Co., Ltd. — where I started as an intern and was brought on full-time within six
-              months. Day to day I work across the whole stack: React and Next.js frontends, Go and
-              Node.js backends, PostgreSQL, and the AI and automation layers that tie them together.
+              I&apos;m a software engineer based in Bangkok, working at Puraido Co., Ltd. Day to
+              day I build across the whole stack — Go and Node.js backends, React and Remix on the
+              web, React Native on mobile — and outside work I take on freelance projects for real
+              businesses.
             </p>
           </Reveal>
           <Reveal delay={0.08}>
             <p>
-              My path here wasn&apos;t the usual one. I spent 3.5 years studying medicine before
-              switching to technology — a background that still pays off when I work on healthtech
-              and clinical products, where understanding the domain matters as much as the code.
-              I then earned a 50% academic scholarship studying ICT at Rangsit University while
-              building real projects on the side.
+              My path into software wasn&apos;t the usual one: I studied medicine for a few years
+              before switching to technology and completing an ICT degree in Bangkok. The medical
+              background still comes in useful when I work on health-related products, where
+              understanding the domain matters as much as the code.
             </p>
           </Reveal>
           <Reveal delay={0.16}>
             <p>
-              I care about clean code, practical solutions, and clear communication. When I take on
-              a project, I own it end-to-end: architecture, implementation, testing, deployment,
-              and honest updates along the way.
+              I try to keep things simple: understandable code, honest timelines, and clear
+              communication. When I take on a project, I stay with it — from the first
+              conversation through deployment and support.
             </p>
           </Reveal>
         </div>
