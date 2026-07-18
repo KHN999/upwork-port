@@ -13,7 +13,7 @@ export const site = {
     linkedin: "https://www.linkedin.com/in/kaung-htet-naing-nine-4896bb212/",
     upwork: "https://www.upwork.com/freelancers/kaunghtetnaing",
   },
-  // TODO: drop your resume PDF into /public and update this path
+  // Generated from the /cv page (see also /resume.jpg)
   resumeUrl: "/resume.pdf",
   // Shown as the proof strip under the hero CTAs — tweak freely
   stats: [
