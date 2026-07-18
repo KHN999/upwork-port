@@ -13,9 +13,8 @@ export const experience: ExperienceItem[] = [
     period: "Dec 2025 — Present",
     location: "Bangkok, Thailand",
     points: [
-      // TODO: replace with 2–3 concrete things you own/shipped at Puraido
-      "Building and shipping full-stack features across web and backend systems.",
-      "Working with TypeScript, Go, and PostgreSQL in a production environment.",
+      "Building and operating a chat platform serving 1,000,000+ users with ~400 new signups a day — Go backend services, Remix web apps, and React Native mobile.",
+      "Owning features end-to-end across the product monorepo: database schema, APIs, dashboards, and the AgentHQ Chat mobile app.",
     ],
   },
   {
@@ -24,7 +23,7 @@ export const experience: ExperienceItem[] = [
     period: "Jun 2025 — Nov 2025",
     location: "Bangkok, Thailand",
     points: [
-      "Contributed production code from week one across frontend and backend.",
+      "Built two production mobile apps adopted by all employees — shipped, not shelved.",
       "Promoted to full-time Software Engineer after 6 months.",
     ],
   },

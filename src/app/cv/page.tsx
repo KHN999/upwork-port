@@ -47,11 +47,11 @@ export default function CvPage() {
             Summary
           </h2>
           <p className="mt-1.5 text-[13px] leading-relaxed text-[#3d4451]">
-            Full-stack engineer with production software running in three real contexts: a company
-            chat platform used daily by an entire team, a POS and business-control system operating
-            a textile shop in Yangon, and personal data/AI products in daily use. I own work
-            end-to-end — requirements, architecture, build, deploy, support — and specialize in
-            React/Next.js, React Native, typed backends, and LLM-powered workflows.
+            Full-stack engineer with production software running at real scale: a chat platform
+            serving 1,000,000+ users, a POS and business-control system operating a textile shop
+            in Yangon, and data/AI products in daily use. I own work end-to-end — requirements,
+            architecture, build, deploy, support — and specialize in React/Next.js, React Native,
+            Go, and LLM-powered workflows.
           </p>
         </section>
 
@@ -86,13 +86,13 @@ export default function CvPage() {
             <p className="text-[12px] italic text-[#5c6572]">Bangkok · full-time</p>
             <ul className="mt-1 list-disc space-y-0.5 pl-5 text-[13px] leading-relaxed text-[#3d4451]">
               <li>
-                Core engineer on AgentHQ Chat — a 48,000-line React Native / Expo team-messaging
-                app (realtime channels, voice notes, read receipts, shift tools) used daily across
-                the company.
+                Build and operate a chat platform serving 1,000,000+ users with ~400 new signups
+                daily — Go backend services, Remix web apps, and React Native mobile.
               </li>
               <li>
-                Work across a product monorepo: Go backend services, web dashboards, and mobile —
-                owning features from database schema to UI.
+                Own features end-to-end across the product monorepo — database schema to API to
+                UI — including AgentHQ Chat, the team-messaging app (realtime, voice notes, shift
+                tools) used daily company-wide.
               </li>
             </ul>
           </div>
