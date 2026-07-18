@@ -14,7 +14,7 @@ export function Projects() {
       id="work"
       eyebrow="Selected work"
       title="Projects"
-      description="A mix of professional case studies and personal builds. Each one shipped, each one owned end-to-end."
+      description="A small selection from the projects I've built — a mix of professional case studies and personal builds. Each one shipped, each one owned end-to-end."
     >
       {/* Mobile: swipeable snap carousel */}
       <div className="sm:hidden">
