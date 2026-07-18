@@ -179,7 +179,7 @@ export default function CvPage() {
             Languages
           </h2>
           <p className="mt-1.5 text-[13px] text-[#3d4451]">
-            English (professional) · Burmese (native) · Thai (conversational)
+            English (professional) · Burmese (native) · Thai (basic)
           </p>
         </section>
       </div>
